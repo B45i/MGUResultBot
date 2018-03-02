@@ -1,4 +1,5 @@
 config.py
 previous.txt
+.vscode/
 venv/
 *.pyc
