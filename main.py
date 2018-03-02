@@ -11,7 +11,7 @@ interval = 10 # Time interval in minutes
 def send_message(text):
     data = {'chat_id': chat_id, 'text': text}
     response = requests.post(TELEGRAM_API + '/sendMessage', data=data)
-    print response
+    print(response)
     # print response.content
 
 def check_result():
